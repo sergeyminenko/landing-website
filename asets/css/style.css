@@ -1,50 +1,52 @@
- html, body {
+html, body {
   height: 100%;
 }
-  #content{
-      min-width: 100%;
-      padding-bottom: 200px;
+
+#content{
+  min-width: 100%;
+  padding-bottom: 200px;
 }
 
- body{
+body{
   font-family: 'PT Sans Caption', sans-serif;
   font-family: 1em;
-
 }
- header{
+
+header{
   box-shadow: 0 0 15px 2px #202020;
 }
 
-
- .topHeader{
+.topHeader{
   background-color: #DCDCDC;
   overflow: hidden;
   height:150px
 }
- img{
+
+img{
    display: block;
    height: 149px;
    width: 190px;
 }
 
- .logo,.phone,.search{
+.logo,.phone,.search{
   float:left;
   width: 33%;
 }
- .phone p{
+
+.phone p{
   color: #778899;
   font-size: 0.8em;
   margin-top: 20px;
 }
- .phone h1 {
+
+.phone h1 {
   color: #696969;
   font-size: 1.5em;
-
 }
 
-
- .search form{
-  margin-top: 20px;}
+.search form {
+  margin-top: 20px;
+}
 
  .logo{
    width: 200px;
