@@ -54,25 +54,30 @@ img{
   margin: 0 auto;
   background-image: url(/img1.png);
 }
+
 img{
   display: block;
   height: 149px;
-  width: 190px;}
+  width: 190px;
+}
 
- nav{
+nav{
   width: 100%;
   background-color: #BC8F8F;
 }
- #menu ul{
+
+#menu ul{
   padding-top: 0;
   margin: 0;
 }
- #menu ul li{
+
+#menu ul li{
   list-style: none;
   display: inline-block;
   position: relative;
 }
- #menu ul li a{
+
+#menu ul li a{
   color: inherit;
   text-decoration: none;
   display: block;
@@ -82,46 +87,58 @@ img{
   text-align: right; vertical-align: middle;
   min-width: 120px;
 }
- #menu ul li a:active{
-	text-decoration: underline;
-	color: #F0FFF0; }
 
- #menu ul li a:hover{
+#menu ul li a:active{
+	text-decoration: underline;
+	color: #F0FFF0;
+}
+
+#menu ul li a:hover{
   color: #800000;
   text-decoration: underline;
 }
- #menu  ul li:hover .submenu{
+#menu  ul li:hover .submenu{
   display:block;
 }
 
 .submenu{
  position: absolute;
  display:none;
+
+
  background-color: #FFF8DC;
  padding: 0px ;
  border: 1px solid #e1e1e1;
+}
 
+.submenu li {
+ min-width: 120px;
+ text-align: center;
 
 }
-.submenu li{
- min-width: 170px;
-}
- .submenu li:hover{
+
+.submenu li:hover{
+  display: block;
+
   background-color: #FFFFFF;
+
 }
- .text-center{
+
+.text-center{
   text-align: center;
 }
- .grid_6 img{
+
+.grid_6 img{
    display: block;
    height: 300px;
    width: 300px;
 }
 
- .we-like h4{
+.we-like h4{
    margin: 0 0 0 150px;
    color: #808080;
 }
+
 .we-like p{
    color: #808080;
 }
@@ -134,63 +151,72 @@ img{
   height: 70px;
   width: 70px;
   padding: 0 15px 12px 15px;
-
 }
- .icons2{
+
+.icons2{
   text-align: center;
 }
-  .icons2  li img{
+
+.icons2  li img{
    height: 65px;
    width: 65px;
    color: #808080;
 }
- .icons2 img.grayscale {
--webkit-filter: grayscale(100%);
--moz-filter: grayscale(100%);
-filter: grayscale(100%);
-filter: gray;
--moz-transition: all 1s ease;
--webkit-transition: all 1s ease;
-transition: all 1s ease;
-cursor: pointer;
+
+.icons2 img.grayscale {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+  -moz-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  cursor: pointer;
 }
- .icons2 img.grayscale:hover {
--webkit-filter: grayscale(0%);
--moz-filter: grayscale(0%);
-filter: grayscale(0%);
-filter:none;
+
+.icons2 img.grayscale:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%);
+  filter:none;
 }
+
 .grayscale.grayscale-replaced > svg {
-transition: opacity 1s ease;
-opacity: 1;
+  transition: opacity 1s ease;
+  opacity: 1;
 }
+
 .grayscale.grayscale-replaced.grayscale-fade:hover > svg {
-opacity: 0;
+  opacity: 0;
 }
- .contact-block li{
-   list-style-type: none;
+
+.contact-block li{
+  list-style-type: none;
 }
- .left-block, .right-block{
+
+.left-block, .right-block{
   width: 49%;
 }
 
-
-  footer{
+footer{
   background-color: #2F4F4F;
   width: 100%;
   height: 200px;
 }
-  footer p{
-   margin: 15px 0 0 10px;
-   color: #778899;
-   text-decoration:none;
+
+footer p{
+  margin: 15px 0 0 10px;
+  color: #778899;
+  text-decoration:none;
 }
-  footer  a{
-   text-decoration: none;
-   color: #008080;
+
+footer  a{
+  text-decoration: none;
+  color: #008080;
 }
-  footer  a:hover{
-   color: #fff;
+
+footer  a:hover{
+  color: #fff;
 }
 
 .icons li{
@@ -198,23 +224,29 @@ opacity: 0;
   list-style: none;
   margin: 0 10px;
 }
- .icons{
+
+.icons{
   text-align: center;
 }
- .icons li a{
+
+.icons li a{
   color: #fff;
   font-size: 1.2em;
 }
- .fa-vk:hover{
+
+.fa-vk:hover{
   color: #4e729a;
 }
- .fa-twitter:hover{
+
+.fa-twitter:hover{
   color: #55acee;
 }
- .fa-instagram:hover{
+
+.fa-instagram:hover{
   color: #FF69B4;
 }
- .fa-facebook:hover{
+
+.fa-facebook:hover{
   color: #3a5795;
 }
   .contactForm input , .contactForm textarea{
